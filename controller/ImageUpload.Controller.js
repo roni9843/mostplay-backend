@@ -56,9 +56,11 @@ const uploadImage = (req, res) => {
             // No file was uploaded
             return res.status(400).json({ error: "No file uploaded" });
         }
-        // Success: return the URL of the uploaded file
-        const fileUrl = `${process.env.IMG_URL}${req.file.filename}`;
-        res.status(200).json({ imageUrl: fileUrl });
+
+
+      
+
+        res.status(200).json({ imageUrl: req.file.filename });
     });
 };
 
