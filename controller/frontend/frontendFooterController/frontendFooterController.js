@@ -2,7 +2,7 @@ const express = require('express');
 
 
 const FavoritesPoster = require('../../../model/favoritesPoster.model');
-const FeaturedGames = require('../../../model/FeaturedGames.model');
+const FeaturedGames = require('../../../model/featuredGames.model');
 const sendResponse = require('../../../utils/responseHandler');
 
 

@@ -19,7 +19,7 @@ const app = express();
 
 // Use middleware
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001"], // Allow requests from frontend
+  origin: ["http://localhost:3000", "http://localhost:3001","https://melbet99.com","https://admin.melbet99.com","http://melbet99.com","http://admin.melbet99.com"], // Allow requests from frontend
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"], // Allow specified methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allow necessary headers
 }));

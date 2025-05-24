@@ -34,3 +34,4 @@ const initializeFeaturedGames = async () => {
 initializeFeaturedGames();
 
 module.exports = FeaturedGames;
+
